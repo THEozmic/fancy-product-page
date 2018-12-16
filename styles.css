@@ -1,0 +1,69 @@
+body {
+  background-color: #239f85;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.root {
+  width: 600px;
+  margin: 100px auto;
+}
+
+.card {
+  background-color: #FFFFFF;
+  padding: 20px 60px;
+  border-radius: 4px;
+  box-shadow: 0 22px 50px rgba(14,21,47, .2), 0 8px 20px rgba(14,21,47, .2);
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card__title {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card__account {
+  padding: 5px;
+  border-radius: 100%;
+  border: 1px solid #d0cdcd;
+  height: 24px;
+}
+
+.order__description {
+  color: #aaa;
+}
+
+.orders {
+  margin: 30px 0px;
+  font-size: 18px;
+  color: #6d6c6e;
+}
+
+.order__item {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.order__item_price {
+  font-weight: 800;
+  color: #000;
+  font-size: 20px;
+}
+
+.total__text {
+  font-weight: 600;
+  font-size: 20px
+}
+
+.product__image {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 230px;
+  left: 0px;
+}
